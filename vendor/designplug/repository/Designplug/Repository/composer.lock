@@ -1,0 +1,55 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "8893a5ca56b93530f6ddc883dfbc06f5",
+    "packages": [
+        {
+            "name": "designplug/utility-object",
+            "version": "v1.0.0",
+            "target-dir": "Designplug/Utility/Object",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DesignPlug/Utility-Object.git",
+                "reference": "6498d3896cfc432b422c7e03dfc6ecffc2200a3b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DesignPlug/Utility-Object/zipball/6498d3896cfc432b422c7e03dfc6ecffc2200a3b",
+                "reference": "6498d3896cfc432b422c7e03dfc6ecffc2200a3b",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Designplug\\Utility\\Object": ""
+                },
+                "files": [
+                    "Designplug/Utility/Object/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ric Anthony Lee",
+                    "email": "ricanthonylee@gmail.com"
+                }
+            ],
+            "description": "Utility Classes for handling objects",
+            "time": "2015-01-17 22:40:30"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

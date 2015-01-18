@@ -1,0 +1,20 @@
+{
+  "name": "designplug/Illuminate",
+  "description": "implements Repository pattern using Illuminate Database",
+  "authors": [
+    {
+      "name": "Ric Anthony Lee",
+      "email": "ricanthonylee@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-0": {
+      "Designplug\\Illuminate": ""
+    }
+  },
+  "target-dir": "Designplug/Illuminate",
+  "require": {
+    "illuminate/database": "~4.2",
+    "designplug/repository": "~1.0.111"
+  }
+}
