@@ -34,7 +34,6 @@ class IlluminateTest extends PHPUnit_Framework_TestCase{
 
     $this->assertNotEmpty($user);
 
-    var_dump($user);
 
   }
 
