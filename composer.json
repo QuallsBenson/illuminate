@@ -15,6 +15,6 @@
   "target-dir": "Designplug/Illuminate",
   "require": {
     "illuminate/database": "~4.2",
-    "designplug/repository": "~1.1.1"
+    "designplug/repository": "1.1.1"
   }
 }
