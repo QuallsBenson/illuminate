@@ -7,15 +7,16 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Twig_' => array($vendorDir . '/twig/twig/lib'),
+    'Symfony\\Component\\Translation\\' => array($vendorDir . '/symfony/translation'),
     'Symfony\\Component\\Finder\\' => array($vendorDir . '/symfony/finder'),
     'Symfony\\Component\\Filesystem\\' => array($vendorDir . '/symfony/filesystem'),
     'Symfony\\Component\\Console\\' => array($vendorDir . '/symfony/console'),
+    'Quallsbenson\\Utility\\Object' => array($vendorDir . '/quallsbenson/utility-object'),
+    'Quallsbenson\\Repository' => array($vendorDir . '/quallsbenson/repository'),
+    'Quallsbenson\\Illuminate' => array($baseDir . '/'),
     'Illuminate\\Support' => array($vendorDir . '/illuminate/support'),
     'Illuminate\\Events' => array($vendorDir . '/illuminate/events'),
     'Illuminate\\Database' => array($vendorDir . '/illuminate/database'),
     'Illuminate\\Container' => array($vendorDir . '/illuminate/container'),
-    'Designplug\\Utility\\Object' => array($vendorDir . '/designplug/utility-object'),
-    'Designplug\\Repository' => array($vendorDir . '/designplug/repository'),
-    'Designplug\\Illuminate' => array($baseDir . '/'),
     'Carbon' => array($vendorDir . '/nesbot/carbon/src'),
 );

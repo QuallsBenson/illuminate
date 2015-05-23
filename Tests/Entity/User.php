@@ -1,4 +1,4 @@
-<?php namespace Designplug\Illuminate \Tests\Entity;
+<?php namespace Quallsbenson\Illuminate \Tests\Entity;
 
 use Illuminate\Database\Eloquent\Model;
 

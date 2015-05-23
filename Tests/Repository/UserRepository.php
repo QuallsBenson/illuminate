@@ -1,6 +1,6 @@
-<?php namespace Designplug\Illuminate\Tests\Repository;
+<?php namespace Quallsbenson\Illuminate\Tests\Repository;
 
-use Designplug\Repository\Repository;
+use Quallsbenson\Repository\Repository;
 
 class UserRepository extends Repository{
 

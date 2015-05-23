@@ -1,5 +1,5 @@
 {
-  "name": "designplug/illuminate",
+  "name": "quallsbenson/illuminate",
   "description": "implements Repository pattern using Illuminate Database",
   "authors": [
     {
@@ -9,12 +9,12 @@
   ],
   "autoload": {
     "psr-0": {
-      "Designplug\\Illuminate": ""
+      "Quallsbenson\\Illuminate": ""
     }
   },
-  "target-dir": "Designplug/Illuminate",
+  "target-dir": "Quallsbenson/Illuminate",
   "require": {
     "illuminate/database": "~4.2",
-    "designplug/repository": "1.1.1"
+    "quallsbenson/repository": "dev-master"
   }
 }

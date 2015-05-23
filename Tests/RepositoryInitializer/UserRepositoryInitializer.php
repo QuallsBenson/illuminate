@@ -1,7 +1,7 @@
-<?php namespace Designplug\Illuminate\Tests\RepositoryInitializer;
+<?php namespace Quallsbenson\Illuminate\Tests\RepositoryInitializer;
 
-use Designplug\Repository\RepositoryInitializer;
-use Designplug\Illuminate\Tests\Repository\UserRepository;
+use Quallsbenson\Repository\RepositoryInitializer;
+use Quallsbenson\Illuminate\Tests\Repository\UserRepository;
 
 class UserRepositoryInitializer extends RepositoryInitializer{
 

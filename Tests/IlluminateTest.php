@@ -1,7 +1,7 @@
 <?php
 
-use Designplug\Repository\RepositoryManager;
-use Designplug\Illuminate\Database\DatabaseManager;
+use Quallsbenson\Repository\RepositoryManager;
+use Quallsbenson\Illuminate\Database\DatabaseManager;
 
 
 require dirname(dirname(__FILE__)) .'/vendor/autoload.php';
@@ -10,9 +10,9 @@ class IlluminateTest extends PHPUnit_Framework_TestCase{
 
   public function testInitializeManager(){
 
-    $manager = new RepositoryManager('Designplug\Illuminate\Tests\Repository',
-                                     'Designplug\Illuminate\Tests\Entity',
-                                     'Designplug\Illuminate\Tests\RepositoryInitializer');
+    $manager = new RepositoryManager('Quallsbenson\Illuminate\Tests\Repository',
+                                     'Quallsbenson\Illuminate\Tests\Entity',
+                                     'Quallsbenson\Illuminate\Tests\RepositoryInitializer');
 
     $db      = new DatabaseManager;
     $db->setConnectionParameters(require('config.php'));

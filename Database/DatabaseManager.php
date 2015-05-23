@@ -1,7 +1,7 @@
-<?php namespace Designplug\Illuminate\Database;
+<?php namespace Quallsbenson\Illuminate\Database;
 
 use \Illuminate\Database\Capsule\Manager;
-use Designplug\Repository\Database\DatabaseManagerInterface;
+use Quallsbenson\Repository\Database\DatabaseManagerInterface;
 
 class DatabaseManager extends Manager implements DatabaseManagerInterface{
 

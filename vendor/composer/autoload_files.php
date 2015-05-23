@@ -7,5 +7,5 @@ $baseDir = dirname($vendorDir);
 
 return array(
     $vendorDir . '/illuminate/support/Illuminate/Support/helpers.php',
-    $vendorDir . '/designplug/utility-object/Designplug/Utility/Object/helpers.php',
+    $vendorDir . '/quallsbenson/utility-object/Quallsbenson/Utility/Object/helpers.php',
 );
